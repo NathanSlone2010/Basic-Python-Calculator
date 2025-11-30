@@ -1,0 +1,81 @@
+print("Welcome to The Py Calculator.")
+#The intro
+
+
+print("\n Input please: ")
+#Alerts user of input
+
+
+calculator=input()
+#Allows the input
+
+
+if calculator == "Addition":
+  a = float(input("\n Enter first number: "))
+  b = float(input("\n Enter second number: "))
+  total = a + b
+  print("\n Here is your total: "), print(total)
+#Allows addition of the input.
+  
+elif calculator == "Times":
+  c = float(input("\n Enter first number: "))
+  d = float(input("\n Enter second number: "))
+  total = c * d
+  print("\n Here is your total: "), print(total)
+#Allows multiplication of the input.
+  
+elif calculator == "Divide":
+  e = float(input("\n Enter first number: "))
+  f = float(input("\n Enter second number: "))
+  total = e / f
+  print("\n Here is your total: "), print(total)
+#Allows the division of the input.
+  
+elif calculator == "Subtract":
+  g = float(input("\n Enter first number: "))
+  h = float(input("\n Enter second number: "))
+  total = g - h
+  print("\n Here is your total: "), print(total)
+#Allows the subtraction of the input
+  
+elif calculator == "Power":
+  base = float(input("\nEnter the base number: "))
+  exponent = float(input("Enter the exponent: "))
+  total = base ** exponent
+  print("\n Here is your total: "), print(total)
+#Allows to-the-power of the input.
+    
+elif calculator == "Remainder":
+  i = float(input("\n Enter first number: "))
+  j = float(input("\n Enter second number: "))
+  total = i % j
+  print("\n Here is your total: "), print(total)
+#Allows percentage of the input.
+  
+elif calculator == "Percent":
+    percent = float(input("\nEnter percent: "))
+    num = float(input("Enter number: "))
+    total = (percent / 100) * num
+    print("\nHere is your total: "), print(total)
+    
+elif calculator == "Percent of":
+  num = float(input("Enter part number: "))
+  total = float(input("Enter total number: "))
+  percent = (num / total) * 100
+  print(f"\n {num} is {percent}% of {total}")
+#All of these are the option.
+
+
+elif calculator == "Log":
+  print("\n Web Version: 1.08.04")
+  print("\n Log: 1.02.03; Added the Log, to log updates for users. | 1.03.03; Added Division capability. | 1.04.03; Added Subtraction capability. | 1.05.03; Added Power capability. | 1.06.03; Added Remainder capability. | 1.06.04; Added developer notes within the code. | 1.07.04; Added Percentage capabilities. | 1.08.04; Added Perfentage Of capabilities.")
+#This is the update log.
+
+  
+else:
+  print("\n INVALID.")
+#Lets the user know their input is invalid.
+
+
+print("\n Thank you for using The Grand Calculator. For further use, restart the program.")
+#The end of the system and lets them know to restart.
