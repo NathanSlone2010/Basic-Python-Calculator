@@ -1,15 +1,29 @@
-print("Welcome to The Py Calculator.")
+import time
+
+time.sleep(1); print("STARTING PROGRAM: 4 SECONDS")
+time.sleep(1); print("3 SECONDS LEFT.")
+time.sleep(1); print("2 SECONDS LEFT.")
+time.sleep(1); print("1 SECONDS LEFT.")
+time.sleep(1); print("0 SECONDS LEFT.")
+time.sleep(0.5); print("ENJOY THE PROGRAM.")
+
+print("\n Welcome to The Py Calculator.")
 # The intro
 
 
 while True:
-    print("\n Input please (or type 'exit' to quit):")
-    calculator = input()
+    print("\nAddition [+], Multiplication [x], Division [/], Subtraction [-], Power [^], Remainder [*], Percentage of [%], Percent of [>].")
+    calculator = input("\n Input: ")
     # Allows the input
 
     if calculator.lower() == "exit":
-        print("\n Thank you for using The Py Calculator. Goodbye!")
-        break
+        print("\n The EXIT Command has been activated. There is no cancelation of the Command")
+        print("\n FIVE SECONDS")
+        time.sleep(1); print("\n4 SECONDS LEFT.")
+        time.sleep(1); print("3 SECONDS LEFT.")
+        time.sleep(1); print("2 SECONDS LEFT.")
+        time.sleep(1); print("PROGRAM END.")
+        time.sleep(0.5); break
         
 
     if calculator == "+":
@@ -69,8 +83,8 @@ while True:
 
 
     elif calculator == "Log":
-        print("\n Web Version: 2.08.04")
-        print("\n Log: 1.02.03; Added the Log, to log updates for users. | 1.03.03; Added Division capability. | 1.04.03; Added Subtraction capability. | 1.05.03; Added Power capability. | 1.06.03; Added Remainder capability. | 1.06.04; Added developer notes within the code. | 1.07.04; Added Percentage capabilities. | 1.08.04; Added Perfentage Of capabilities | 2.08.04; changed the operation names from letters to symbols for easier usage of the program.")
+        print("\n Web Version: 3.08.04")
+        print("\n Log: 1.02.03; Added the Log, to log updates for users. | 1.03.03; Added Division capability. | 1.04.03; Added Subtraction capability. | 1.05.03; Added Power capability. | 1.06.03; Added Remainder capability. | 1.06.04; Added developer notes within the code. | 1.07.04; Added Percentage capabilities. | 1.08.04; Added Perfentage Of capabilities | 2.08.04; changed the operation names from letters to symbols for easier usage of the program | 3.08.04; Remade it to allow loops and easier of use.")
 
 
     else:
