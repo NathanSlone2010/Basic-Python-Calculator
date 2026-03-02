@@ -1,6 +1,6 @@
 import time
 
-print("PYCAL VERSION 3.08.04")
+print("PYCAL VERSION 3.09.04")
 print("COPYRIGHT VOID STUDIOS 2025-2026")
 print("\n Welcome to The Py Calculator.")
 # The intro
@@ -8,7 +8,7 @@ print("\n Welcome to The Py Calculator.")
 
 while True:
     print("\nAddition [+], Multiplication [x], Division [/], Subtraction [-], Power [^], Remainder [*], Percentage of [%], Percent of [>].")
-    calculator = input("\n Input: ")
+    calculator = input("\n [Input] ")
     # Allows the input
 
     if calculator.lower() == "exit":
@@ -78,7 +78,7 @@ while True:
 
 
     elif calculator == "Log":
-        print("\n Log: 1.02.03; Added the Log, to log updates for users. | 1.03.03; Added Division capability. | 1.04.03; Added Subtraction capability. | 1.05.03; Added Power capability. | 1.06.03; Added Remainder capability. | 1.06.04; Added developer notes within the code. | 1.07.04; Added Percentage capabilities. | 1.08.04; Added Perfentage Of capabilities | 2.08.04; changed the operation names from letters to symbols for easier usage of the program | 3.08.04; Remade it to allow loops and easier of use.")
+        print("\n Log: 1.02.03; Added the Log, to log updates for users. | 1.03.03; Added Division capability. | 1.04.03; Added Subtraction capability. | 1.05.03; Added Power capability. | 1.06.03; Added Remainder capability. | 1.06.04; Added developer notes within the code. | 1.07.04; Added Percentage capabilities. | 1.08.04; Added Perfentage Of capabilities | 2.08.04; changed the operation names from letters to symbols for easier usage of the program | 3.08.04: Remade it to allow loops and easier of use | 3.09.04: Changed input handling")
 
 
     if calculator not in ["+", "x", "/", "-", "^", "*", "%", ">", "Log"]:
